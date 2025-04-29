@@ -17,16 +17,16 @@
     "ignoreCommand": []
   },
   "adminBot": [
-    "100058342072915",
-    "61572755245855"
+    "100078769420993",
+    "100058342072915"
   ],
   "whiteListMode": {
     "enable": false,
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "🌊𝙼𝚊𝚔𝚒𝚖𝚊 𝙱𝚋𝚢🥰",
-  "prefix": "+",
+  "nickNameBot": "🌊Your  𝙱𝚋𝚢🥰",
+  "prefix": "/",
   "database": {
     "type": "sqlite",
     "uriMongodb": "",
@@ -101,42 +101,3 @@
       "chatId": "",
       "note": "Can send notifications to many chatId, separate by comma or space, example: \"123456789 987654321\" (without backslash)"
     },
-    "discordHook": {
-      "enable": false,
-      "webhookUrl": "",
-      "note": "Can send notifications to many webhookUrl, separate by comma or space, example: \"https://discord.com/api/webhooks/123456789/123456789 https://discord.com/api/webhooks/987654321/987654321\" (without backslash)"
-    }
-  },
-  "hideNotiMessage": {
-    "commandNotFound": false,
-    "adminOnly": false,
-    "threadBanned": false,
-    "userBanned": false,
-    "needRoleToUseCmd": false,
-    "needRoleToUseCmdOnReply": false,
-    "needRoleToUseCmdOnReaction": false
-  },
-  "logEvents": {
-    "disableAll": false,
-    "message": true,
-    "message_reaction": true,
-    "message_unsend": true,
-    "message_reply": true,
-    "event": true,
-    "read_receipt": false,
-    "typ": false,
-    "presence": false
-  },
-  "optionsFca": {
-    "forceLogin": true,
-    "listenEvents": true,
-    "updatePresence": true,
-    "listenTyping": true,
-    "logLevel": "error",
-    "selfListen": false,
-    "selfListenEvent": true,
-    "autoMarkDelivery": false,
-    "autoReconnect": false,
-    "notes": "Document here: https://github.com/ntkhang03/fb-chat-api/blob/master/DOCS.md#apisetoptionsoptions "
-  }
-}
